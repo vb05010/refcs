@@ -1,0 +1,17 @@
+1625508488a:1:{s:22:"chairs-high-chairs.htm";a:7:{s:8:"fileName";s:22:"chairs-high-chairs.htm";s:7:"content";s:214:"[viewBag]
+title = "Libros"
+url = "/publicaciones/libros"
+layout = "chair"
+is_hidden = 0
+navigation_hidden = 0
+tagline = "Libros de la Red"
+==
+{% put sidebarSection %}
+<p>Lista:</p>
+
+{% endput %}
+==
+<h3>Libros</h3>";s:5:"mtime";i:1596820422;s:6:"markup";s:15:"<h3>Libros</h3>";s:4:"code";s:53:"{% put sidebarSection %}
+<p>Lista:</p>
+
+{% endput %}";s:7:"viewBag";a:6:{s:5:"title";s:6:"Libros";s:3:"url";s:21:"/publicaciones/libros";s:6:"layout";s:5:"chair";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:7:"tagline";s:16:"Libros de la Red";}s:12:"parsedMarkup";s:15:"<h3>Libros</h3>";}}

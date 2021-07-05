@@ -1,0 +1,16 @@
+1625508488a:1:{s:40:"publicaciones-cuadernos-bicentenario.htm";a:7:{s:8:"fileName";s:40:"publicaciones-cuadernos-bicentenario.htm";s:7:"content";s:231:"[viewBag]
+title = "Cuadernos Bicentenario"
+url = "/publicaciones/cuadernos-bicentenario"
+layout = "chair"
+is_hidden = 0
+navigation_hidden = 0
+==
+{% put sidebarSection %}
+<p>Lista:</p>
+
+{% endput %}
+==
+<p>Cuadernos Bicentenario</p>";s:5:"mtime";i:1596820568;s:6:"markup";s:29:"<p>Cuadernos Bicentenario</p>";s:4:"code";s:53:"{% put sidebarSection %}
+<p>Lista:</p>
+
+{% endput %}";s:7:"viewBag";a:5:{s:5:"title";s:22:"Cuadernos Bicentenario";s:3:"url";s:37:"/publicaciones/cuadernos-bicentenario";s:6:"layout";s:5:"chair";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:29:"<p>Cuadernos Bicentenario</p>";}}

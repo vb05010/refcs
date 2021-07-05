@@ -1,0 +1,107 @@
+1625508488a:1:{s:14:"main-menu.yaml";a:7:{s:8:"fileName";s:14:"main-menu.yaml";s:7:"content";s:2423:"name: 'Main Menu'
+items:
+    -
+        title: Inicio
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: index
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: REFCS
+        nesting: '0'
+        type: static-page
+        url: ''
+        code: ''
+        reference: about
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: Miembros
+                nesting: '0'
+                type: static-page
+                code: ''
+                reference: about-team
+                replace: '0'
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: Publicaciones
+        nesting: '1'
+        type: static-page
+        url: ''
+        code: ''
+        reference: chairs
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Recursos
+        nesting: '1'
+        type: static-page
+        url: ''
+        code: ''
+        reference: recursos
+        cmsPage: ''
+        replace: '0'
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+        items:
+            -
+                title: 'Archivo Oral'
+                nesting: '0'
+                type: static-page
+                url: ''
+                code: ''
+                reference: recursos-archivo-oral
+                cmsPage: ''
+                replace: '0'
+                viewBag:
+                    isHidden: '0'
+                    cssClass: ''
+                    isExternal: '0'
+    -
+        title: Proyectos
+        nesting: ''
+        type: cms-page
+        url: ''
+        code: ''
+        reference: blog/category
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+    -
+        title: Contáctenos
+        nesting: ''
+        type: cms-page
+        url: ''
+        code: ''
+        reference: contact
+        cmsPage: ''
+        replace: ''
+        viewBag:
+            isHidden: '0'
+            cssClass: ''
+            isExternal: '0'
+";s:5:"mtime";i:1592249284;s:6:"markup";N;s:4:"code";N;s:4:"name";N;s:5:"items";a:0:{}}}

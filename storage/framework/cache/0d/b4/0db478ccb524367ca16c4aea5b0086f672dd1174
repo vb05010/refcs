@@ -1,0 +1,21 @@
+1625508488a:1:{s:25:"chairs-rocking-chairs.htm";a:7:{s:8:"fileName";s:25:"chairs-rocking-chairs.htm";s:7:"content";s:355:"[viewBag]
+title = "Revista"
+url = "/publicaciones/revista"
+layout = "chair"
+is_hidden = 0
+navigation_hidden = 0
+tagline = "Revista de Ciencias Sociales"
+==
+{% put sidebarSection %}
+<h3>Etymology</h3>
+
+<p>The word rocking chair comes from the verb to rock. The first known use of the term rocking chair was in 1766.</p>
+
+{% endput %}
+==
+<h3>Revista</h3>";s:5:"mtime";i:1596820368;s:6:"markup";s:16:"<h3>Revista</h3>";s:4:"code";s:179:"{% put sidebarSection %}
+<h3>Etymology</h3>
+
+<p>The word rocking chair comes from the verb to rock. The first known use of the term rocking chair was in 1766.</p>
+
+{% endput %}";s:7:"viewBag";a:6:{s:5:"title";s:7:"Revista";s:3:"url";s:22:"/publicaciones/revista";s:6:"layout";s:5:"chair";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:7:"tagline";s:28:"Revista de Ciencias Sociales";}s:12:"parsedMarkup";s:16:"<h3>Revista</h3>";}}

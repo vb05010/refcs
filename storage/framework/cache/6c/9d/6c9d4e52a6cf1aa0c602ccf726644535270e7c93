@@ -1,0 +1,22 @@
+1625508488a:1:{s:9:"index.htm";a:7:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:543:"[viewBag]
+title = "Inicio"
+url = "/"
+layout = "home"
+is_hidden = 0
+navigation_hidden = 0
+==
+{% put news %}
+<figure data-snippet="news">&nbsp;</figure>
+
+{% endput %}
+==
+<h3>REFCS</h3>
+
+<p>A partir de enero de 2018, un grupo de docentes e investigadores toman la iniciativa de crear una red de investigadores para constituir una comunidad como un espacio abierto al debate y a la construcción de pensamiento, que sume esfuerzos y recursos para el fortalecimiento de las investigaciones en el área de las humanidades y ciencias sociales.</p>";s:5:"mtime";i:1596819671;s:6:"markup";s:374:"<h3>REFCS</h3>
+
+<p>A partir de enero de 2018, un grupo de docentes e investigadores toman la iniciativa de crear una red de investigadores para constituir una comunidad como un espacio abierto al debate y a la construcción de pensamiento, que sume esfuerzos y recursos para el fortalecimiento de las investigaciones en el área de las humanidades y ciencias sociales.</p>";s:4:"code";s:73:"{% put news %}
+<figure data-snippet="news">&nbsp;</figure>
+
+{% endput %}";s:7:"viewBag";a:5:{s:5:"title";s:6:"Inicio";s:3:"url";s:1:"/";s:6:"layout";s:4:"home";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";}s:12:"parsedMarkup";s:374:"<h3>REFCS</h3>
+
+<p>A partir de enero de 2018, un grupo de docentes e investigadores toman la iniciativa de crear una red de investigadores para constituir una comunidad como un espacio abierto al debate y a la construcción de pensamiento, que sume esfuerzos y recursos para el fortalecimiento de las investigaciones en el área de las humanidades y ciencias sociales.</p>";}}

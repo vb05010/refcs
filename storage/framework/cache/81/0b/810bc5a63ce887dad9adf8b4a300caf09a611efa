@@ -1,0 +1,16 @@
+1625508488a:1:{s:17:"static-pages.yaml";a:5:{s:8:"fileName";s:17:"static-pages.yaml";s:7:"content";s:404:"static-pages:
+    index: {  }
+    about:
+        about-facilities: {  }
+        about-team: {  }
+        about-actividades: {  }
+        about-mediosdedivulgacion: {  }
+    chairs:
+        chairs-high-chairs: {  }
+        chairs-rocking-chairs: {  }
+        chairs-wheelchairs: {  }
+        publicaciones-cuadernos-bicentenario: {  }
+    recursos:
+        recursos-archivo-oral: {  }
+    proyectos: {  }
+";s:5:"mtime";i:1596820331;s:6:"markup";N;s:4:"code";N;}}

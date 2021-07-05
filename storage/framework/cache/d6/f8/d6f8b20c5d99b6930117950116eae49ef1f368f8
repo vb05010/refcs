@@ -1,0 +1,8 @@
+1625508488a:1:{s:22:"chairs-wheelchairs.htm";a:7:{s:8:"fileName";s:22:"chairs-wheelchairs.htm";s:7:"content";s:154:"[viewBag]
+title = "Novedades"
+url = "/publicaciones/novedades"
+layout = "default"
+is_hidden = 0
+navigation_hidden = 0
+tagline = "Novedades Editoriales"
+==";s:5:"mtime";i:1596823675;s:6:"markup";s:0:"";s:4:"code";N;s:7:"viewBag";a:6:{s:5:"title";s:9:"Novedades";s:3:"url";s:24:"/publicaciones/novedades";s:6:"layout";s:7:"default";s:9:"is_hidden";s:1:"0";s:17:"navigation_hidden";s:1:"0";s:7:"tagline";s:21:"Novedades Editoriales";}s:12:"parsedMarkup";s:0:"";}}

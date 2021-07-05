@@ -1,0 +1,134 @@
+title = "Miembros"
+url = "/account/:code?"
+layout = "default"
+meta_title = "Registrate para ser miembro de la REFCS"
+is_hidden = 0
+
+[account]
+redirect = "/clients"
+paramCode = "code"
+forceSecure = 0
+==
+<?php
+function onStart()
+{
+    $this['bannerImage'] = $this->themeUrl('assets/images/client-area-banner.jpg');
+}
+?>
+==
+<div class="account-area">
+
+    {% if not user %}
+
+        {% if post('register') %}
+            <div class="jumbotron">
+                <h2>Gracias por registrarte</h2>
+                <p>Su solicitud ha sido recibida y recibirá un correo electrónico de nosotros una vez que haya sido aprobado para iniciar sesión.</p>
+                <p><a href="{{ 'home'|page }}">Vuelve a la página inicial</a>
+            </div>
+        {% else %}
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <h3>Bienvenido a la REFCS</h3>
+                    <p>Si ya es miembro de la REFCS, inicie sesión con sus detalles aquí.</p>
+                    <form
+                        data-request="onSignin">
+                        <div class="form-group">
+                            <label for="userSigninLogin">{{ loginAttributeLabel }}</label>
+                            <input name="login" type="text" class="form-control" id="userSigninLogin" placeholder="Ingrese su {{ loginAttributeLabel|lower }}">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="userSigninPassword">Contraseña</label>
+                            <input name="password" type="password" class="form-control" id="userSigninPassword" placeholder="Ingrese su contraseña">
+                        </div>
+
+                        <button type="submit" class="btn btn-default">Iniciar Sesión</button>
+                    </form>
+                    <br />
+                    <p><a href="{{ 'forgot-password'|page }}">¿Olvido su contraseña?</a></p>
+                </div>
+
+                <div class="col-md-6">
+                    <h3>Unete a la REFCS</h3>
+                    <p>La red está adscrita al Instituto de Estudios Antropológicos, Arqueológicos e Históricos de la Universidad de El Salvador.</p>
+                    <form
+                        data-request="onRegister">
+                        <input type="hidden" name="redirect" value="{{ this.page.baseFileName|page }}?register=1" />
+
+                        <div class="form-group">
+                            <label for="accountEmail">Nombre completo</label>
+                            <input name="name" type="text" class="form-control" id="accountEmail" placeholder="Ingrese su nombre completo">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="accountEmail">Email</label>
+                            <input name="email" type="email" class="form-control" id="accountEmail" placeholder="Ingrese su email">
+                        </div>
+
+                        <h3>Información de la cuenta</h3>
+
+                        <div class="form-group">
+                            <label for="accountLogin">Nombre de Usuario</label>
+                            <input name="username" type="text" class="form-control" id="accountUsername" placeholder="Elija un nombre de inicio de sesión para usar">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="accountPassword">Contraseña</label>
+                            <input name="password" type="password" class="form-control" id="accountPassword" placeholder="Elija una contraseña">
+                        </div>
+
+                        <button type="submit" class="btn btn-default">Registrarse</button>
+                    </form>
+
+                </div>
+
+            </div>
+
+        {% endif %}
+
+    {% else %}
+
+
+        {{ form_ajax('onUpdate', { model: user }) }}
+
+            <h3>Información de la cuenta</h3>
+
+            <div class="form-group">
+                <label for="accountName">Nombre completo</label>
+                <input name="name" type="text" class="form-control" id="accountName" value="{{ form_value('name') }}">
+            </div>
+
+            <div class="form-group">
+                <label for="accountEmail">Email</label>
+                <input name="email" type="email" class="form-control" id="accountEmail" value="{{ form_value('email') }}">
+            </div>
+
+            <div class="form-group">
+                <label for="accountLogin">Iniciar sesión</label>
+                <input name="username" type="text" class="form-control" id="accountLogin" placeholder="Elija un nombre de inicio de sesión" value="{{ form_value('username') }}">
+            </div>
+
+            <div class="form-group">
+                <label for="accountPassword">Nueva contraseña</label>
+                <input name="password" type="password" class="form-control" id="accountPassword">
+            </div>
+
+            <div class="form-group">
+                <label for="accountPasswordConfirm">Confirmar nueva contraseña</label>
+                <input name="password_confirmation" type="password" class="form-control" id="accountPasswordConfirm">
+            </div>
+
+            <button type="submit" class="btn btn-default">Save</button>
+
+        {{ form_close() }}
+
+        <br/ >
+        <p>
+            <a href="{{ 'clients'|staticPage }}">+ Regresar a la REFCS</a>
+        </p>
+
+    {% endif %}
+</div>

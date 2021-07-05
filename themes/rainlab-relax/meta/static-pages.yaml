@@ -1,0 +1,15 @@
+static-pages:
+    index: {  }
+    about:
+        about-facilities: {  }
+        about-team: {  }
+        about-actividades: {  }
+        about-mediosdedivulgacion: {  }
+    chairs:
+        chairs-high-chairs: {  }
+        chairs-rocking-chairs: {  }
+        chairs-wheelchairs: {  }
+        publicaciones-cuadernos-bicentenario: {  }
+    recursos:
+        recursos-archivo-oral: {  }
+    proyectos: {  }

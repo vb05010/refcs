@@ -1,0 +1,9 @@
+name: Relax
+description: 'Red para el Fortalecimiento de las Ciencias Sociales en El Salvador'
+author: REFCS
+homepage: 'https://sic.ues.edu.sv/refcs'
+code: Relax
+require:
+    - RainLab.User
+    - RainLab.Blog
+    - RainLab.Pages

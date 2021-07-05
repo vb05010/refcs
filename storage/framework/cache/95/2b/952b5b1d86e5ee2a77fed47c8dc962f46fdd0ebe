@@ -1,0 +1,39 @@
+1625508488a:1:{s:14:"client/nav.htm";a:6:{s:8:"fileName";s:14:"client/nav.htm";s:7:"content";s:684:"[viewBag]
+==
+<div class="module-sidemenu">
+    <ul>
+        <li class="head-link"><span>Mi Perfil</span></li>
+        <li><a href="{{ 'account'|page }}">Cambiar contraseña</a></li>
+        <li><a href="javascript:;" data-request="onLogout">Cerrar Sesión</a></li>
+    </ul>
+</div>
+<div class="module-sidemenu">
+    <ul>
+        <li class="head-link">
+            <a href="{{ 'miembros-refcs'|staticPage }}">Miembros REFCS</a>
+        </li>
+        {% for item in clientMenu.menuItems %}
+            <li class="{{ item.isActive ? 'active' : '' }}">
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>";s:5:"mtime";i:1571963556;s:6:"markup";s:671:"<div class="module-sidemenu">
+    <ul>
+        <li class="head-link"><span>Mi Perfil</span></li>
+        <li><a href="{{ 'account'|page }}">Cambiar contraseña</a></li>
+        <li><a href="javascript:;" data-request="onLogout">Cerrar Sesión</a></li>
+    </ul>
+</div>
+<div class="module-sidemenu">
+    <ul>
+        <li class="head-link">
+            <a href="{{ 'miembros-refcs'|staticPage }}">Miembros REFCS</a>
+        </li>
+        {% for item in clientMenu.menuItems %}
+            <li class="{{ item.isActive ? 'active' : '' }}">
+                <a href="{{ item.url }}">{{ item.title }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</div>";s:4:"code";N;s:7:"viewBag";a:0:{}}}
